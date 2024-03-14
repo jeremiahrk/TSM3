@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>BTEC FAIR</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+    <!--Favicon-->
+    <link type="image/png" sizes="16x16" rel="icon" href=".../icons8-b-16.png">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5RKD98P3N6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5RKD98P3N6');
+</script>
+</head>
+<body>
+ <!-- Vendor JS Files -->
+ <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <h1>TSM<span>.</span></h1>
+      </a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li> 
+        </ul>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div
+          class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">Enjoy sweet &<br>Delicious Food</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Eat delicous and sweet food at the BTEC fair at Torah food stall!</p>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="assets/img/yes.jpg" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300" style="border-radius: 45px;">
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>About Us</h2>
+          <p>Learn More <span>About Us</span></p>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-7 position-relative about-img" style="background-image: url(assets/img/torah.jpg) ;border-radius: 50px;background-size: cover;"
+            data-aos="fade-up" data-aos-delay="150">
+          </div>
+          <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+                At the heart of their endeavor is the notion of  hospitality and creativity.
+                 Torah is not just selling products; she is crafting an experience that contirbutes and showcases 
+                 the skills and knowledge she has learnt in hospitality. This project is not merely a school 
+                 assignment; it's a testament to her dedication and innovative spirit.
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i>The school BTEC fair provides the perfect platform for students to share their passion with fellow students</li>
+                <li><i class="bi bi-check2-all"></i> Get to know the passionate minds behind the project and discover the inspiration at the BTEC fair</li>
+              </ul>
+              <p>
+                As students pursuing their BTEC studies, Torah,Sahsa and Massimo have harnessed their academic knowledge to 
+                create a venture that not only showcases their skills but also contributes to a cause close to thier knowledge ans skill in the hospitality sector.
+                with the help of fellow BTEC hospitality students(Sasha and Massimo) who are helping  Torah run stall, she is able to showcase her leadership skills. 
+              </p>
+
+              <div class="position-relative mt-4">
+                <img src="assets/img/bbbtec.gif" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Menu</h2>
+          <p>Check Our <span>TSM Menu</span></p>
+        </div>
+
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
+              <h4>Food & Drinks</h4>
+            </a>
+          </li><!-- End tab nav item -->
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="tab-pane fade active show" id="menu-starters">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Products</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/yes.jpg"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4> 1 Sticky Wing</h4>
+                <p class="ingredients">
+                  enjoy some hot and Delicious wings
+                </p>
+                <p class="price">
+                  3000UGX
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/no.jpg"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>Ice Cream</h4>
+                <p class="ingredients">
+                  Yummy cold icecream
+                </p>
+                <p class="price">
+                  5000UGX Per scoop
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/sodaa.jpg"
+                    class="menu-img img-fluid" alt=""></a>
+                <h4>Bottle Of Soda 250ML</h4>
+                <p class="ingredients">
+                  cold soda to cool you from the heat
+                </p>
+                <p class="price">
+                  1500UGX
+                </p>
+              </div><!-- Menu Item -->
+            </div>
+          </div><!-- End Starter Menu Content -->
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+  
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Address</h4>
+            <p>
+              Lubbobo Close, Kampala <br>
+              Uganda<br>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>
+              <strong>Friday:9:05 AM</strong> - 2:30 PM<br>
+              Sunday: Closed
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>BTEC IT</span></strong> All Rights Reserved
+      </div>
+      <div class="credits">
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Template Main JS File -->
+ <script src="assets/js/main.js"></script>
+
+</body>
+</html>
